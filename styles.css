@@ -1,0 +1,83 @@
+body {
+    font-family: "Sarabun", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    transition: background-color 0.3s;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+img{
+    width: 600px;
+    /*height: 200px;*/
+}
+main {
+    padding: 20px;
+}
+
+.intro, .features {
+    margin-bottom: 20px;
+}
+
+.feature {
+    background-color: #fff;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 50px;
+    transition: transform 0.3s;
+}
+
+.feature:hover {
+    transform: scale(1.05);
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+input{
+    margin: 10px;
+    display:inline-block;
+    justify-content: center;
+}
+form{
+    display: grid;
+  place-items: center; /* Centra tanto horizontal como verticalmente */
+  height: 100vh;
+}
+input{
+    padding: 10px; /* Espaciado interno */
+  border: 1px solid #ccc; /* Borde con color gris claro */
+  border-radius: 5px; /* Bordes redondeados */
+}
+.intro{
+    display: grid;
+  place-items: center; /* Centra tanto horizontal como verticalmente */
+  
+}
